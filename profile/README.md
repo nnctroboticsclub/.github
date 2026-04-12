@@ -1,11 +1,10 @@
-# Nagaoka Robotics Club
+# NNCT Robotics Club
 
 長岡高専ロボティクス部の公式GitHubです。
 
 ## 活動内容
 - ロボコン出場
 - 組み込み開発（STM32など）
-- 制御アルゴリズム開発
 
 ## リポジトリ一覧
 主要プロジェクトはこちら👇
