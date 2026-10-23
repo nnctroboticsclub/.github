@@ -1,0 +1,26 @@
+name: 機能・改善を提案
+description: 解決したい課題と、機能や改善の案を共有します。
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 解決したい課題
+      description: どのような場面で、何に困っているかを記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 提案する変更
+      description: 期待する使い方や動作を記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 代替案・現在の対処方法
+  - type: textarea
+    id: impact
+    attributes:
+      label: 互換性や実装への影響
+      description: 公開 API、依存関係、対応ボードなど。分かる範囲で記載してください。

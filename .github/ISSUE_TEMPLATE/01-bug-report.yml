@@ -1,0 +1,48 @@
+name: 不具合を報告
+description: 再現手順と実行環境を添えて不具合を報告します。
+body:
+  - type: markdown
+    attributes:
+      value: |
+        既存の Issue を確認してから報告してください。
+        ログや設定に認証情報・個人情報を含めないでください。
+  - type: input
+    id: version
+    attributes:
+      label: 使用バージョン
+      description: タグ・コミット番号など。分からない場合は、その旨を記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 実行環境
+      description: OS・ツールのバージョン。組み込みの場合はボード・MCU、PlatformIO 環境名、配線・周辺機器も記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 再現手順
+      description: 実行したコマンドと、再現する最小限のコード・設定を記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待した結果
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 実際の結果
+      description: ビルド時の問題か、実機での問題かも記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 関連ログ
+      description: エラーの前後を含むログがあれば貼り付けてください。
+      render: text

@@ -1,0 +1,21 @@
+name: 使い方を質問
+description: README やサンプルを確認しても解決しない疑問を相談します。
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: 実現したいこと・質問
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: 確認した資料・試したこと
+      description: 参照した README やサンプル、試した操作を記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 使用環境・補足
+      description: バージョンや環境、必要であればコードやログを記載してください。認証情報・個人情報は含めないでください。
