@@ -1,6 +1,11 @@
 name: 機能・改善を提案
 description: 解決したい課題と、機能や改善の案を共有します。
 body:
+  - type: markdown
+    attributes:
+      value: |
+        投稿先の公開範囲を確認し、未公開の機体・大会資料を公開の提案に含めないでください。
+        認証情報・秘密鍵・個人情報は記載しないでください。
   - type: textarea
     id: problem
     attributes:

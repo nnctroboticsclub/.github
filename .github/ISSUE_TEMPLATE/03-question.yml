@@ -1,6 +1,11 @@
 name: 使い方を質問
 description: README やサンプルを確認しても解決しない疑問を相談します。
 body:
+  - type: markdown
+    attributes:
+      value: |
+        投稿先の公開範囲を確認し、未公開の機体・大会資料を公開の質問に含めないでください。
+        認証情報・秘密鍵・個人情報は記載しないでください。
   - type: textarea
     id: goal
     attributes:

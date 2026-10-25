@@ -22,7 +22,18 @@ Nbed / PlatformIO プロジェクト向けの配布設定を管理します。
 個別の Issue テンプレートや `config.yml` がある場合、共通の Issue テンプレート一式は
 利用されません。共通版との自動統合も行われません。
 
+## 部員向けの案内との分担
+
+部員向けプロフィールは、非公開の `.github-private` リポジトリにある
+`profile/README.md` で管理します。こちらの公開プロフィールとは別の内容を表示できます。
+`.github-private` に置いた Issue・PR テンプレートや内部ガイドは、他の非公開リポジトリへ
+自動継承されません。必要なプロジェクトへ個別に導入します。
+
+**この公開リポジトリには、未公開の機体・大会資料、部内限定の文書・連絡先を置かないでください。**
+ここで定義する共通ガイド・テンプレートは、非公開を含む組織内の継承先でも使われます。
+
 詳しくは [GitHub の既定コミュニティファイルの仕様](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
+と [組織プロフィールの設定](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile)
 を参照してください。
 
 ## Nbed プロジェクトへ導入する設定
