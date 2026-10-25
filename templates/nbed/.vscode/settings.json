@@ -1,5 +1,4 @@
 {
-  // NNCT Robotics Club の Nbed / PlatformIO 共有設定。
   // コード編集・自動保存・ツール動作を共有。テーマ・フォント・ターミナルは個人設定。
   "files.encoding": "utf8",
   "files.eol": "\n",
