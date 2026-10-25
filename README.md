@@ -1,4 +1,4 @@
-# NNCT Robotics Club の共通設定
+# 長岡高専ロボティクス部 の共通設定
 
 組織内リポジトリの貢献ガイド、Issue・Pull Request テンプレートと、
 Nbed / PlatformIO プロジェクト向けの配布設定を管理します。

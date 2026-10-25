@@ -1,4 +1,4 @@
-# NNCT Robotics Club
+# 長岡高専ロボティクス部
 
 長岡高専ロボティクス部の公式 GitHub です。
 
