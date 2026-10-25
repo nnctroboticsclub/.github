@@ -1,4 +1,4 @@
-# Nbed / PlatformIO の共有設定
+# nbed / PlatformIO の共有設定
 
 部活の共有設定を既存プロジェクトへ導入するための設定一式です。
 2026-10-23 に確認した共有元と `nbed-project-template` の設定を基にしています。
@@ -21,7 +21,7 @@
 | `.vscode/clean.py` | 固定した生成物のパスだけを削除 |
 | `compiledb.py` | ビルド時・DB生成時にコンパイルDBを更新 |
 | `.gitignore` | 生成物や PC 固有のデバッグ設定の除外例 |
-| `platformio.ini` | NUCLEO-F446RE / Nbed v0.6.0 の設定例 |
+| `platformio.ini` | NUCLEO-F446RE / nbed v0.6.0 の設定例 |
 | `LICENSE` | この配布設定一式の既存の MIT ライセンス |
 
 clangd / clang-format **23.1.0** を想定します。古いバージョンでは読み込めない
@@ -66,8 +66,8 @@ macOS/Linux は `bin/` を参照します。Core の保存先を変えている�
 プロジェクトのタスクと `clangd.arguments` を実際の配置に合わせてください。
 
 - `Ctrl+Shift+B`: `platformio.ini` の `default_envs` をビルド
-- 「Nbed: clangd用ビルド情報を更新（既定環境）」: `compile_commands.json` を生成
-- 「Nbed: 完全再ビルド（既定環境）」: 生成物を削除した後に既定環境をビルド
+- 「nbed: clangd用ビルド情報を更新（既定環境）」: `compile_commands.json` を生成
+- 「nbed: 完全再ビルド（既定環境）」: 生成物を削除した後に既定環境をビルド
 
 コンパイルDBは利用する PC で再生成します。共有するソースへ固定のユーザーパスや
 生成済みDBを追加しないでください。DB の変更は監視対象に残し、clangd が再起動します。

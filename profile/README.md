@@ -13,8 +13,8 @@
 
 ## 公開プロジェクト・開発資料
 
-- [Nbed](https://github.com/nnctroboticsclub/Nbed): 組み込み開発で使用するフレームワーク
-- [Nbed / PlatformIO の共有設定](https://github.com/nnctroboticsclub/.github/tree/main/templates/nbed): VS Code、整形・補完、ビルドの設定と導入ガイド
+- [nbed](https://github.com/nnctroboticsclub/nbed): 組み込み開発で使用するフレームワーク
+- [nbed / PlatformIO の共有設定](https://github.com/nnctroboticsclub/.github/tree/main/templates/nbed): VS Code、整形・補完、ビルドの設定と導入ガイド
 - [開発に参加する方へ](https://github.com/nnctroboticsclub/.github/blob/main/CONTRIBUTING.md): 提案・修正・動作確認の進め方
 
 質問・不具合は、対象プロジェクトの README と Issue を確認してください。

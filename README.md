@@ -1,7 +1,7 @@
 # 長岡高専ロボティクス部 の共通設定
 
 組織内リポジトリの貢献ガイド、Issue・Pull Request テンプレートと、
-Nbed / PlatformIO プロジェクト向けの配布設定を管理します。
+nbed / PlatformIO プロジェクト向けの配布設定を管理します。
 
 ## GitHub が自動で利用するファイル
 
@@ -36,11 +36,11 @@ Nbed / PlatformIO プロジェクト向けの配布設定を管理します。
 と [組織プロフィールの設定](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile)
 を参照してください。
 
-## Nbed プロジェクトへ導入する設定
+## nbed プロジェクトへ導入する設定
 
 [templates/nbed/](templates/nbed/) に、共有する VS Code、clangd、clang-format、
 ビルドタスク、コンパイルDB生成、生成物削除の設定を収録しています。
-2026-10-23 に確認した部活の共有設定と Nbed テンプレートを基にしたスナップショットです。
+2026-10-23 に確認した部活の共有設定と nbed テンプレートを基にしたスナップショットです。
 
 **これらの開発環境設定は GitHub から自動継承されません。**
 新規プロジェクトには次のテンプレートを利用してください。
